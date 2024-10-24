@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%; 
+    height: 100%;
+}
+#main { 
+    width: 100%;
+    min-height: 100vh; 
+}
+.top { 
+    width: 100%;
+    min-height:94vh;
+    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-autumn-new-clothing-poster-womens-poster-hand-painted-picture-image_925333.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+.sk{
+    padding-left: 330px;
+    padding-top: 50px;
+}
+.sk p{
+    font-size: 2vw;
+    font-weight: 100;
+    color: black;
+}
+.sk p:hover{
+    color: blueviolet;
+}
+button{
+    margin: 90px;
+    padding: 15px;
+    border-color:aquamarine;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: powderblue;
+    color: black;
+}
+button p:hover{
+    color:blueviolet;
+}
+.top .overlay{ 
+    font-weight:800;
+    font-size: 4vw;
+    width: 100%; 
+    min-height: inherit; 
+    background-color: rgba(151, 151, 151, 0.151); 
+    color: purple;
+}
+.text{
+     display: flex; 
+     justify-content: space-between; 
+     position: absolute; 
+     width: 100%; 
+     bottom:10%;
+}
+.icons{
+     font-weight: 150; 
+     font-size: 3vw; 
+     color: white;
+} 
+.icons i{
+    margin-right: 20px;
+    float: right;
+    padding-top: 45px;
+}
+
+.icons i:hover{
+    color: cornflowerblue;
+}
+.text .image{ 
+    background-image: url('https://img.faballey.com/images/Product/XLH02292Z/d3.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height:400px; 
+    width: 250px; 
+    border-radius: 22%;
+    border-color: skyblue;
+    margin-left: 99px;
+}
+.rtext{ 
+    display: flex; 
+    width:70%; 
+    align-items: center; 
+    
+} 
+.rtext p{
+    font-size: 32px; 
+    margin-top: 170px;
+    padding:60px;
+} 
+.rtext p:hover{
+    color: darkcyan;
+}
+
+
+.bottom1{
+    margin: 10px;
+    background-color: rgb(240,217,205);
+    border-radius: 20px;
+}
+.bottom h1{
+    color:purple;
+    font-size:3vw;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.bottom{
+    background-color: powderblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+.part1{
+    display: flex; 
+    align-items: center; 
+}
+.b1{
+    margin-left: 100px;
+}
+.b1 .image1{
+    background-image: url('https://www.lavanyathelabel.com/cdn/shop/files/NR101WW078_14_1200x.jpg?v=1708144985');
+    background-position: center; 
+    background-size: cover;
+    height:320px; 
+    width: 180px; 
+    border-radius: 10px;
+}
+.b1 h2{ 
+    text-align: center; 
+    color:purple; 
+} 
+.b2{
+    margin-left: 90px;
+}
+.b2 .image2{
+    background-image: url('https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/2024/SEPTEMBER/3/GDuB2RUj_ae7a2225ad1843be954ed1a035961497.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    height:315px; 
+    width: 200px; 
+    border-radius: 10px;
+}
+.b2 h2{ 
+    text-align: center; 
+    color:purple; 
+} 
+.b3{
+    margin-left: 90px;  
+}
+.b3 .image3{ 
+    background-image: url('https://5.imimg.com/data5/LI/JQ/LB/SELLER-37269396/beautiful-and-gorgeous-party-and-wedding-wear-designer-saree.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height:320px; 
+    width: 200px; 
+    border-radius: 10px;
+}
+.b3 h2{ 
+    text-align: center; 
+    color:purple; 
+} 
+.b{
+    margin-left: 90px;  
+}
+.b .image4{ 
+    background-image: url('https://empress-clothing.com/cdn/shop/files/AAW7001.jpg?v=1725876773');
+    background-size: cover; 
+    background-position: center; 
+    height:320px; 
+    width: 200px; 
+    border-radius: 10px;
+}
+.b h2{ 
+    text-align: center; 
+    color:purple; 
+} 
+.part2{
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.b4{
+    margin-left: 100px;
+}
+.b4 .image5{ 
+    background-image: url('https://www.tasva.com/cdn/shop/files/Clothing.png?v=1712678944&width=1688');
+    background-size: cover; 
+    background-position: center; 
+    height:320px; 
+    width: 200px; 
+    border-radius: 10px;
+}
+.b4 h2{ 
+    text-align: center; 
+    color:purple; 
+} 
+.b5 .image6{ 
+    background-image: url('https://cdn.shopify.com/s/files/1/0266/6276/4597/files/floral_ethnic_wear_for_kids_by_utsa.jpg?v=1597833877');
+    background-size: cover; 
+    background-position: center; 
+    height:320px; 
+    width: 200px; 
+    border-radius: 10px;
+}
+.b5 h2{ 
+    text-align: center; 
+    color:purple; 
+} 
+.b6{
+   margin-right: 120px;
+}
+.b6 h3{
+    color: purple;
+}
+.b6 .overlay{ 
+    background-image: url('https://img.freepik.com/free-vector/loupe-flat-design_1010-440.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721692800&semt=ais_user');
+    background-size: cover; 
+    background-position: center; 
+    background-color: antiquewhite;
+    height:320px; 
+    width: 200px; 
+    border-radius: 10px;
+}
+.b6 .overlay h2{ 
+    text-align: center;
+    color: purple;
+} 
+#main h2:hover,h3:hover{
+    color: blueviolet;
+}
+
+.bottom2{
+
+    width: 100%;
+    height:100px;
+    background-color: rgba(51, 51, 51, 0.774);
+}
+.b7{
+    display: flex; 
+    justify-content: space-around; 
+    color: white;
+    padding: 40px;
+}
+.b7 i:hover,p:hover{
+    color: black;
+}
